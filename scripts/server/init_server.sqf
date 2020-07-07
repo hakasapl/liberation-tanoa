@@ -127,6 +127,7 @@ if (KP_liberation_restart > 0) then {
     execVM "scripts\server\game\server_restart.sqf";
 };
 
+/*
 if (KP_liberation_limited_zeus) then {
     zm1 setVariable ["Addons", 0, true];
     removeAllCuratorAddons zm1;
@@ -149,3 +150,4 @@ if (KP_liberation_limited_zeus) then {
     zm1 setCuratorCoef ["delete", 0];
     zm1 setCuratorCoef ["destroy", 0];
 };
+*/
